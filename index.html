@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home and Error Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .home-container,
+        .error-container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #202124;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #5f6368;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .error-code {
+            font-size: 100px;
+            color: #ea4335;
+            margin: 0;
+        }
+
+        .error-message {
+            font-size: 24px;
+            color: #202124;
+            margin: 20px 0;
+        }
+
+        .sub-message {
+            color: #5f6368;
+        }
+
+        .warning-message {
+            color: #ea4335;
+            font-size: 18px;
+            display: none;
+        }
+
+        .robot {
+            width: 150px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Home Page -->
+        <div id="home-page" class="home-container">
+            <h1>Welcome to the Home Page!</h1>
+            <p><a href="h1.html" id="go-to-error">Click and Go to the next page</a></p>
+        </div>
+
+      </body>
+</html>
